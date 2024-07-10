@@ -1,0 +1,87 @@
+.FormStyle {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    padding: 10px;
+}
+
+div.left {
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+div.center {
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+div.right {
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.parent {
+    background-color: blue;
+    width: 900px;
+    height: 900px;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 20px solid red;
+    outline: 20px solid pink;
+
+}
+
+.rowRight {
+    display: flex;
+    justify-content: right;
+}
+
+.rowCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.rowLeft {
+    display: flex;
+    justify-content: left;
+}
+
+
+div.cellBlue{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
+div.cellYellow{
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+}
+div.cellGreen{
+    background-color: green;
+    width: 300px;
+    height: 300px;
+}
+
+div.parentForquestion3{
+    background-color: blue;
+    width: 900px;
+    height: 900px;
+
+    display: flex;
+    flex-direction: row;
+
+    border: 20px solid red;
+    outline: 20px solid pink;
+}

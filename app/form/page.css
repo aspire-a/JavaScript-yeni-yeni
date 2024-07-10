@@ -1,0 +1,4 @@
+.FormStyle {
+    display: flex;
+    flex-direction: column;
+}
